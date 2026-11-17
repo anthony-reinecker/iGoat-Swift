@@ -8,6 +8,8 @@ func pathDocumentDirectory(fileName: String) -> String {
 
 class BrokenCryptographyExerciseVC: UIViewController {
     var encryptionKey = "myencrytionkey"
+    var notrealAWSKey = "AKIAIOSFODNN7EXAMPLE"
+    var notrealSecretKey = "wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY"
     @IBOutlet weak var passwordTextField: UITextField!
     
     @IBAction func showItemPressed() {
